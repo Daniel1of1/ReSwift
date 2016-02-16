@@ -2,5 +2,10 @@ import PackageDescription
 
 
 let package = Package(
-    exclude: ["ReSwiftTests"]
-)
+    exclude: ["ReSwiftTests"],
+        targets: [
+            Target(
+                name: "ReSwift"
+                )
+            ]
+    )
