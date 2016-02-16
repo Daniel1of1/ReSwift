@@ -1,5 +1,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "ReSwift"
+    name: "ReSwift",
+    exclude: [
+        "ReswiftTests"
+        ]
+
 )
