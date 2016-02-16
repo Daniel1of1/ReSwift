@@ -1,9 +1,6 @@
 import PackageDescription
 
-let package = Package(
-    name: "ReSwift",
-    exclude: [
-        "ReswiftTests"
-        ]
 
+let package = Package(
+    exclude: ["ReSwiftTests"]
 )
